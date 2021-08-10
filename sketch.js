@@ -5,9 +5,10 @@ var personGroup;
 
 var gameOver, restart;
 var gameOverImg, restartImg;
-var gamestate = PLAY;
-var PLAY;
-var END;
+
+var PLAY=1;
+var END=0;
+var gameState = PLAY;
 
 
 function preload(){
